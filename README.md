@@ -14,7 +14,7 @@ GIDE is an ambitious project at its early stages, aiming to provide a robust and
 
 ## Getting Started
 
-To get started with GIDE, follow the steps outlined in our [documentation](link-to-docs). We encourage you to explore the features, report issues, and contribute to the project's growth.
+To get started with GIDE, follow the steps outlined in our [documentation](./docs/guide.md). We encourage you to explore the features, report issues, and contribute to the project's growth.
 
 ## How to Contribute
 
@@ -23,11 +23,11 @@ To get started with GIDE, follow the steps outlined in our [documentation](link-
 
 ## Community and Support
 
-Join the Guild at our [community forum](link-to-forum) to connect with other developers, ask questions, and share your experiences with GIDE.
+Join the Guild at our [discord server](https://discord.gg/JabQwK3KqZ) to connect with other developers, ask questions, and share your experiences with GIDE.
 
 ## License
 
-GIDE is released under the [GNU General Public License v3.0 (GPL-3.0)](link-to-license). Feel free to use, modify, and distribute the software according to the terms of the license.
+GIDE is released under the [GNU General Public License v3.0 (GPL-3.0)](./LICENSE). Feel free to use, modify, and distribute the software according to the terms of the license.
 
 Thank you for being a part of The Nameless Guild and GIDE development!
 
