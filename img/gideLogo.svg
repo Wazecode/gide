@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="50mm"
+   viewBox="0 0 100 50"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16, custom)"
+   sodipodi:docname="Gide Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0835875"
+     inkscape:cx="146.7348"
+     inkscape:cy="249.1723"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs1">
+    <rect
+       x="97.247993"
+       y="337.58945"
+       width="614.05164"
+       height="263.95883"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:Norse;-inkscape-font-specification:Norse;white-space:pre;shape-inside:url(#rect1);fill:#000000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.1671px;font-family:Norse;-inkscape-font-specification:Norse;fill:#333333;fill-opacity:1;stroke-width:0.449657"
+       x="25.995979"
+       y="33.593422"
+       id="text2"
+       transform="scale(0.91754853,1.0898606)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-size:43.1671px;fill:#333333;fill-opacity:1;stroke-width:0.449657"
+         x="25.995979"
+         y="33.593422">GIDE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.66127px;font-family:Norse;-inkscape-font-specification:Norse;text-align:center;text-anchor:middle;fill:#292929;fill-opacity:1;stroke-width:0.303281"
+       x="43.513531"
+       y="50.337856"
+       id="text3"
+       transform="scale(1.1462615,0.87240128)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="text-align:center;text-anchor:middle;fill:#292929;fill-opacity:1;stroke-width:0.303281"
+         x="43.513531"
+         y="50.337856">Guild's Integrated development environment</tspan></text>
+  </g>
+</svg>

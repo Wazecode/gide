@@ -2,6 +2,8 @@
 
 Welcome to GIDE, the Guilds Integrated Development Environment, brought to you by The Nameless Guild!
 
+![GIDE Logo](./img/gideLogo.svg)
+
 ## Overview
 
 GIDE is an ambitious project at its early stages, aiming to provide a robust and feature-rich Integrated Development Environment tailored for the needs of Guilds. Developed using C++ and Qt, GIDE is designed to be a powerful tool that facilitates seamless collaboration, code organization, and efficient development within the Guild ecosystem.
