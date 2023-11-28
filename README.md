@@ -10,7 +10,9 @@ GIDE is an ambitious project at its early stages, aiming to provide a robust and
 
 ## Key Features
 
-- **C++ and Qt Powered:** Leveraging the power of C++ and Qt, GIDE ensures high-performance development with a user-friendly interface.
+- **Fast and Lightweight:** Its aims to be fast and lightweight, as it uses C++ and Qt.
+
+- **Easy Setup:** Will setup environments with a click of a button, and will have many templates to built projects from.
 
 - **Early Stages:** GIDE is in its early stages of development, and we invite you to join us on this exciting journey. Your feedback and contributions are invaluable in shaping the future of GIDE.
 
