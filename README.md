@@ -2,7 +2,7 @@
 
 Welcome to GIDE, the Guilds Integrated Development Environment, brought to you by The Nameless Guild!
 
-![GIDE Logo](./img/gideLogo.svg)
+<img src="./img/gideLogo.svg" width=100%>
 
 ## Overview
 
