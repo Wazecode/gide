@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QDebug>
 #include "texteditor.h"
 
 const int DEFAULT_WIDTH = 800;
@@ -22,7 +23,17 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_actionopen_triggered();
+    void onActionNewTriggered();
+
+    void onActionOpenTriggered();
+
+    void onActionSaveTriggered();
+
+    void onActionSaveAsTriggered();
+
+    void onActionFullScreenTriggered();
+
+    void onActionExitTriggered();
 
 private:
     Ui::MainWindow *ui;
