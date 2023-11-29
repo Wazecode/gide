@@ -14,7 +14,10 @@ private:
 public:
     explicit TextEditor(QWidget *parent = nullptr);
 
-    void open();
+    void openFile();
+    void newFile();
+    void saveFile();
+    void saveFileAs();
 
 signals:
 };
