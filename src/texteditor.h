@@ -18,6 +18,7 @@ public:
     void newFile();
     void saveFile();
     void saveFileAs();
+    QString currentFilename();
 
 signals:
 };

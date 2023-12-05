@@ -55,6 +55,11 @@ void TextEditor::saveFileAs()
     file.close();
 }
 
+QString TextEditor::currentFilename()
+{
+    return currfile;
+}
+
 void TextEditor::openFile()
 {
     QString filename = QFileDialog::getOpenFileName(this, "Open the file");
@@ -68,8 +73,11 @@ void TextEditor::openFile()
         QMessageBox::warning(this, "Warning", "Cannot Open file: " + file.errorString());
     }
 
+    setWindowTitle(filename);
+
     QTextStream in(&file);
     QString text = in.readAll();
     this->setText(text);
     file.close();
 }
+

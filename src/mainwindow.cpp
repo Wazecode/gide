@@ -33,21 +33,25 @@ MainWindow::~MainWindow()
 //--------------Files------------------------
 void MainWindow::onActionNewTriggered() {
     t->newFile();
+    setWindowTitle("!Untitled");
 }
 void MainWindow::onActionOpenTriggered()
 {
     t->openFile();
     t->show();
+    setWindowTitle(t->currentFilename());
 }
 
 void MainWindow::onActionSaveTriggered()
 {
     t->saveFile();
+    setWindowTitle(t->currentFilename());
 }
 
 void MainWindow::onActionSaveAsTriggered()
 {
     t->saveFileAs();
+    setWindowTitle(t->currentFilename());
 }
 
 
