@@ -3,7 +3,13 @@
 
 #include <QMainWindow>
 #include <QDebug>
-#include "texteditor.h"
+#include <QShortcut>
+#include <QKeySequence>
+#include <QTabBar>
+#include <QPixmap>
+
+#include "gtexteditor.h"
+#include "gtabs.h"
 
 const int DEFAULT_WIDTH = 800;
 const int DEFAULT_HEIGHT= 600;
@@ -23,20 +29,18 @@ public:
     ~MainWindow();
 
 private slots:
-    void onActionNewTriggered();
-
-    void onActionOpenTriggered();
-
-    void onActionSaveTriggered();
-
-    void onActionSaveAsTriggered();
-
     void onActionFullScreenTriggered();
 
     void onActionExitTriggered();
 
+    void onActionShowMenuBarTriggered();
+
 private:
     Ui::MainWindow *ui;
-    TextEditor *t; //temporary
+    GTextEditor *t; //Temp
+
+    GTabs *tabs;
+
+    void initializeShortcuts();
 };
 #endif // MAINWINDOW_H
