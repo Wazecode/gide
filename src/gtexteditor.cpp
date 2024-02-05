@@ -5,11 +5,13 @@ GTextEditor::GTextEditor(QWidget *parent)
 {
     int fontWidth = QFontMetrics(this->currentCharFormat().font()).averageCharWidth();
     this->setTabStopDistance(3* fontWidth);
+    initShortcuts();
 }
 
-void GTextEditor::setWindowTitle(QString t)
+void GTextEditor::setWindowTitle(const QString &t)
 {
-    this->parentWidget()->setWindowTitle(t);
+    parentWidget()->setWindowTitle(t);
+    qDebug() << "Editor: Window Title Changed.\n";
 }
 
 void GTextEditor::newFile()
@@ -83,4 +85,17 @@ void GTextEditor::saveFileAs()
 }
 
 
+void GTextEditor::initShortcuts()
+{
+    //Save File
+    {
+        QShortcut *s = new QShortcut(QKeySequence(tr("Ctrl+S", "File|Save")), this);
+        connect(s, &QShortcut::activated, this, &GTextEditor::saveFile);
+    }
 
+    //Save File as
+    {
+        QShortcut *s = new QShortcut(QKeySequence(tr("Ctrl+Shift+S", "File|Save as")), this);
+        connect(s, &QShortcut::activated, this, &GTextEditor::saveFileAs);
+    }
+}

@@ -5,15 +5,18 @@
 #include <QTextEdit>
 #include <QFileDialog>
 #include <QMessageBox>
+#include <QShortcut>
+#include <QKeySequence>
 
 class GTextEditor : public QTextEdit
 {
 private:
     QString currfile;
+    void initShortcuts();
 
 public:
     explicit GTextEditor(QWidget *parent = nullptr);
-    void setWindowTitle(QString t);
+    void setWindowTitle(const QString &t);
 
 public slots:
     void newFile();
