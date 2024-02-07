@@ -4,23 +4,23 @@ GTabs::GTabs(QWidget *parent)
     :QTabWidget{parent}
 {
     setTabsClosable(true);
-    connect(this, &QTabWidget::tabCloseRequested, this , []() {
-        qDebug() << "Hello";
-    });
     initShortcuts();
+
 }
 
-void GTabs::setWindowTitle(const QString &t)
+void GTabs::changeTabName(const QString &t)
 {
-    this->parentWidget()->setWindowTitle(t);
+    parentWidget()->setWindowTitle(t);
     setTabText(currentIndex(), t);
-    qDebug() << "GTabs\n";
 }
 
 void GTabs::newTextEditTab()
 {
-    this->addTab(new GTextEditor(this), "Untitled");
+    GTextEditor *t = new GTextEditor(this);
+    this->addTab(t, "Untitled");
     this->setCurrentIndex(this->count() - 1);
+    connect(t, SIGNAL(fileNameChanged(QString)), this, SLOT(changeTabName(QString)));
+    t->setFocus();
 }
 
 void GTabs::deleteCurrentTab()
@@ -28,8 +28,25 @@ void GTabs::deleteCurrentTab()
     this->removeTab(this->currentIndex());
 }
 
+void GTabs::openTextFile()
+{
+    GTextEditor *t = new GTextEditor(this);
+    this->addTab(t, "");
+    this->setCurrentIndex(this->count() - 1);
+    t->openFile();
+    changeTabName(t->getFilenameFromPath());
+    t->setFocus();
+}
+
 void GTabs::initShortcuts()
 {
+
+    //Open File
+    {
+        QShortcut *s = new QShortcut(QKeySequence(tr("Ctrl+O", "File|Open")), this);
+        connect(s, &QShortcut::activated, this, &GTabs::openTextFile);
+    }
+
     //Add tab or New File
     {
         QShortcut *s = new QShortcut(QKeySequence(tr("Ctrl+T", "Tabs|add")), this);
@@ -50,6 +67,18 @@ void GTabs::initShortcuts()
         connect(s, &QShortcut::activated, this, [this, i](){
             setCurrentIndex(i-1);
         });
-
     }
+
+    //When Tab Close button is pressed
+    connect(this, &GTabs::tabCloseRequested, this , &GTabs::removeTab);
+
+    //Test
+    {
+        QShortcut *s = new QShortcut(QKeySequence(tr("Ctrl+K", "Tabs|delete")), this);
+        connect(s, &QShortcut::activated, this, [this]() {
+            setWindowTitle("Testing Change");
+        });
+    }
+
+
 }

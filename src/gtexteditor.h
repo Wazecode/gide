@@ -10,19 +10,23 @@
 
 class GTextEditor : public QTextEdit
 {
+    Q_OBJECT
 private:
-    QString currfile;
+    QString _currfile;
+    QString _filename;
     void initShortcuts();
 
 public:
     explicit GTextEditor(QWidget *parent = nullptr);
-    void setWindowTitle(const QString &t);
+    const QString getFilenameFromPath();
 
 public slots:
     void newFile();
     void openFile();
     void saveFile();
     void saveFileAs();
+signals:
+    void fileNameChanged(const QString &newFilename);
 };
 
 #endif // GTEXTEDITOR_H

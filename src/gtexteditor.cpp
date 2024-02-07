@@ -8,15 +8,9 @@ GTextEditor::GTextEditor(QWidget *parent)
     initShortcuts();
 }
 
-void GTextEditor::setWindowTitle(const QString &t)
-{
-    parentWidget()->setWindowTitle(t);
-    qDebug() << "Editor: Window Title Changed.\n";
-}
-
 void GTextEditor::newFile()
 {
-    currfile.clear();
+    _currfile.clear();
     this->setText(QString());
     setWindowTitle("Untitled");
 }
@@ -29,7 +23,10 @@ void GTextEditor::openFile()
         return;
 
     QFile file(filename);
-    currfile = filename;
+    _currfile = filename;
+
+
+    emit fileNameChanged(getFilenameFromPath());
 
     if(!file.open(QIODevice::ReadOnly | QFile::Text)) {
         QMessageBox::warning(this, "Warning", "Cannot Open file: " + file.errorString());
@@ -46,19 +43,20 @@ void GTextEditor::openFile()
 void GTextEditor::saveFile()
 {
     QString filename;
-    if(currfile.isEmpty()) {
+    if(_currfile.isEmpty()) {
         filename = QFileDialog::getSaveFileName(this, "Save");
-        currfile = filename;
-        setWindowTitle(filename);
+        _currfile = filename;
+        // setWindowTitle(filename);
     }
     else {
-        filename = currfile;
+        filename = _currfile;
     }
 
     QFile file(filename);
     if(!file.open(QIODevice::WriteOnly | QFile::Text)) {
         QMessageBox::warning(this, "Warning", "Cannont save file: " + file.errorString());
     }
+    emit fileNameChanged(getFilenameFromPath());
 
     QTextStream out(&file);
     QString text = this->toPlainText();
@@ -74,9 +72,11 @@ void GTextEditor::saveFileAs()
     if(!file.open(QIODevice::WriteOnly | QFile::Text)) {
         QMessageBox::warning(this, "Warning", "Cannont save file: " + file.errorString());
     }
+    file.symLinkTarget();
 
-    currfile = filename;
-    setWindowTitle(filename);
+    _currfile = filename;
+    // setWindowTitle(filename);
+    emit fileNameChanged(getFilenameFromPath());
 
     QTextStream out(&file);
     QString text = this->toPlainText();
@@ -97,5 +97,16 @@ void GTextEditor::initShortcuts()
     {
         QShortcut *s = new QShortcut(QKeySequence(tr("Ctrl+Shift+S", "File|Save as")), this);
         connect(s, &QShortcut::activated, this, &GTextEditor::saveFileAs);
+    }
+}
+
+const QString GTextEditor::getFilenameFromPath()
+{
+    if(_currfile.isEmpty()) {
+        return "Untitled";
+    }
+    else {
+        QFileInfo fileInfo(_currfile);
+        return fileInfo.fileName();
     }
 }

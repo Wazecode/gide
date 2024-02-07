@@ -12,13 +12,15 @@
 
 class GTabs : public QTabWidget
 {
+    Q_OBJECT
 private:
 public:
     explicit GTabs(QWidget *parent = nullptr);
-    void setWindowTitle(const QString &t);
 public slots:
     void newTextEditTab();
     void deleteCurrentTab();
+    void openTextFile();
+    void changeTabName(const QString &tabName);
 
 private:
     void initShortcuts();
