@@ -1,0 +1,23 @@
+<map id="/home/shuwais/Documents/Projects/gide/src/gshortcut.h" name="/home/shuwais/Documents/Projects/gide/src/gshortcut.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="255,5,447,48"/>
+<area shape="rect" id="Node000002" href="$gshortcut_8cpp.html" title=" " alt="" coords="5,96,212,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="281,56,166,98,165,93,279,51"/>
+<area shape="rect" id="Node000003" href="$gshortcutsmenu_8h.html" title=" " alt="" coords="236,96,467,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="354,64,354,96,349,96,349,64"/>
+<area shape="rect" id="Node000005" href="$gtabs_8h.html" title=" " alt="" coords="602,96,783,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="447,50,613,93,612,98,445,55"/>
+<area shape="rect" id="Node000004" href="$gshortcutsmenu_8cpp.html" title=" " alt="" coords="222,187,467,229"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="351,154,349,187,343,186,346,154"/>
+<area shape="rect" id="Node000006" href="$gsettings_8h.html" title=" " alt="" coords="492,187,683,229"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="658,151,614,188,610,184,655,147"/>
+<area shape="rect" id="Node000008" href="$gtabs_8cpp.html" title=" " alt="" coords="707,187,891,229"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="730,146,776,184,772,188,727,151"/>
+<area shape="rect" id="Node000009" href="$mainwindow_8h.html" title=" " alt="" coords="916,187,1125,229"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="785,141,944,183,943,189,783,146"/>
+<area shape="rect" id="Node000007" href="$gsettings_8cpp.html" title=" " alt="" coords="485,277,690,320"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="590,245,590,277,585,277,585,245"/>
+<area shape="rect" id="Node000010" href="$main_8cpp.html" title=" " alt="" coords="822,277,1003,320"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="986,241,939,279,936,275,982,237"/>
+<area shape="rect" id="Node000011" href="$mainwindow_8cpp.html" title=" " alt="" coords="1026,277,1250,320"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="1061,237,1112,275,1109,279,1058,241"/>
+</map>

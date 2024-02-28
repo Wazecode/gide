@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['getfilenamefrompath_0',['getFilenameFromPath',['../classGTextEditor.html#a1fdba89bb256bbc332847a543acc2bbc',1,'GTextEditor']]],
+  ['getinstance_1',['getInstance',['../classGShortcuts.html#af4a9199670cbde72d631781526935427',1,'GShortcuts::getInstance()'],['../classGShortcutsMenu.html#a8bc49684c2a3ccf127cb57f38279e59d',1,'GShortcutsMenu::getInstance()']]],
+  ['getting_20started_2',['Getting Started',['../index.html#autotoc_md3',1,'']]],
+  ['gfinddialog_3',['GFindDialog',['../classGFindDialog.html',1,'GFindDialog'],['../classGFindDialog.html#afb20fdcc6064e16ba11a9718fd8f4d4f',1,'GFindDialog::GFindDialog()']]],
+  ['gfinddialog_2ecpp_4',['gfinddialog.cpp',['../gfinddialog_8cpp.html',1,'']]],
+  ['gfinddialog_2eh_5',['gfinddialog.h',['../gfinddialog_8h.html',1,'']]],
+  ['gide_20guilds_20ide_6',['GIDE (Guilds IDE)',['../index.html',1,'']]],
+  ['gsettings_2ecpp_7',['gsettings.cpp',['../gsettings_8cpp.html',1,'']]],
+  ['gsettings_2eh_8',['gsettings.h',['../gsettings_8h.html',1,'']]],
+  ['gshortcut_9',['GShortcut',['../classGShortcut.html',1,'GShortcut'],['../classGShortcut.html#ae7871705b253ffc64e28d84744a5996b',1,'GShortcut::GShortcut(QObject *parent=nullptr)'],['../classGShortcut.html#a8e93aac913f068c3326acb98f4f8adba',1,'GShortcut::GShortcut(QString name, QKeySequence k, QObject *parent)']]],
+  ['gshortcut_2ecpp_10',['gshortcut.cpp',['../gshortcut_8cpp.html',1,'']]],
+  ['gshortcut_2eh_11',['gshortcut.h',['../gshortcut_8h.html',1,'']]],
+  ['gshortcuts_12',['GShortcuts',['../classGShortcuts.html',1,'GShortcuts'],['../classGShortcuts.html#abb0c639d59438cec45d76dca73bd6d0d',1,'GShortcuts::GShortcuts()']]],
+  ['gshortcuts_2ecpp_13',['gshortcuts.cpp',['../gshortcuts_8cpp.html',1,'']]],
+  ['gshortcuts_2eh_14',['gshortcuts.h',['../gshortcuts_8h.html',1,'']]],
+  ['gshortcutsmenu_15',['GShortcutsMenu',['../classGShortcutsMenu.html',1,'GShortcutsMenu'],['../classGShortcutsMenu.html#a36a9a18e8daebf99251b4038eae520cf',1,'GShortcutsMenu::GShortcutsMenu()']]],
+  ['gshortcutsmenu_2ecpp_16',['gshortcutsmenu.cpp',['../gshortcutsmenu_8cpp.html',1,'']]],
+  ['gshortcutsmenu_2eh_17',['gshortcutsmenu.h',['../gshortcutsmenu_8h.html',1,'']]],
+  ['gtabs_18',['GTabs',['../classGTabs.html',1,'GTabs'],['../classGTabs.html#a2037a6eca190e5299f2d04664fdceed4',1,'GTabs::GTabs()']]],
+  ['gtabs_2ecpp_19',['gtabs.cpp',['../gtabs_8cpp.html',1,'']]],
+  ['gtabs_2eh_20',['gtabs.h',['../gtabs_8h.html',1,'']]],
+  ['gtexteditor_21',['GTextEditor',['../classGTextEditor.html',1,'GTextEditor'],['../classGTextEditor.html#ae451f044f9cfadb6175ec88dd531e03c',1,'GTextEditor::GTextEditor()']]],
+  ['gtexteditor_2ecpp_22',['gtexteditor.cpp',['../gtexteditor_8cpp.html',1,'']]],
+  ['gtexteditor_2eh_23',['gtexteditor.h',['../gtexteditor_8h.html',1,'']]],
+  ['guilds_20ide_24',['GIDE (Guilds IDE)',['../index.html',1,'']]]
+];
