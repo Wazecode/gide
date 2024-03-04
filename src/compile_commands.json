@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/shuwais/Documents/Projects/gide/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/shuwais/Documents/Projects/gide/build/src_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o -c /home/shuwais/Documents/Projects/gide/build/src_autogen/mocs_compilation.cpp",
+  "file": "/home/shuwais/Documents/Projects/gide/build/src_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/shuwais/Documents/Projects/gide/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/shuwais/Documents/Projects/gide/build/src_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/src.dir/main.cpp.o -c /home/shuwais/Documents/Projects/gide/src/main.cpp",
+  "file": "/home/shuwais/Documents/Projects/gide/src/main.cpp",
+  "output": "CMakeFiles/src.dir/main.cpp.o"
+},
+{
+  "directory": "/home/shuwais/Documents/Projects/gide/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/shuwais/Documents/Projects/gide/build/src_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/src.dir/mainwindow.cpp.o -c /home/shuwais/Documents/Projects/gide/src/mainwindow.cpp",
+  "file": "/home/shuwais/Documents/Projects/gide/src/mainwindow.cpp",
+  "output": "CMakeFiles/src.dir/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/shuwais/Documents/Projects/gide/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/shuwais/Documents/Projects/gide/build/src_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/src.dir/gtexteditor.cpp.o -c /home/shuwais/Documents/Projects/gide/src/gtexteditor.cpp",
+  "file": "/home/shuwais/Documents/Projects/gide/src/gtexteditor.cpp",
+  "output": "CMakeFiles/src.dir/gtexteditor.cpp.o"
+},
+{
+  "directory": "/home/shuwais/Documents/Projects/gide/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/shuwais/Documents/Projects/gide/build/src_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/src.dir/gtabs.cpp.o -c /home/shuwais/Documents/Projects/gide/src/gtabs.cpp",
+  "file": "/home/shuwais/Documents/Projects/gide/src/gtabs.cpp",
+  "output": "CMakeFiles/src.dir/gtabs.cpp.o"
+},
+{
+  "directory": "/home/shuwais/Documents/Projects/gide/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/shuwais/Documents/Projects/gide/build/src_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/src.dir/gfinddialog.cpp.o -c /home/shuwais/Documents/Projects/gide/src/gfinddialog.cpp",
+  "file": "/home/shuwais/Documents/Projects/gide/src/gfinddialog.cpp",
+  "output": "CMakeFiles/src.dir/gfinddialog.cpp.o"
+},
+{
+  "directory": "/home/shuwais/Documents/Projects/gide/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/shuwais/Documents/Projects/gide/build/src_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/src.dir/gshortcut.cpp.o -c /home/shuwais/Documents/Projects/gide/src/gshortcut.cpp",
+  "file": "/home/shuwais/Documents/Projects/gide/src/gshortcut.cpp",
+  "output": "CMakeFiles/src.dir/gshortcut.cpp.o"
+},
+{
+  "directory": "/home/shuwais/Documents/Projects/gide/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/shuwais/Documents/Projects/gide/build/src_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/src.dir/gshortcutsmenu.cpp.o -c /home/shuwais/Documents/Projects/gide/src/gshortcutsmenu.cpp",
+  "file": "/home/shuwais/Documents/Projects/gide/src/gshortcutsmenu.cpp",
+  "output": "CMakeFiles/src.dir/gshortcutsmenu.cpp.o"
+}
+]

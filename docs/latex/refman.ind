@@ -1,0 +1,202 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}MainWindow}
+    \subitem {MainWindow}, \hyperpage{21}
+
+  \indexspace
+
+  \item {ascii}
+    \subitem {Conversion}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Conversion}, \hyperpage{11}
+    \subitem {ascii}, \hyperpage{12}
+    \subitem {Conversion}, \hyperpage{11}
+    \subitem {getStrings}, \hyperpage{12}
+    \subitem {hex}, \hyperpage{12}
+    \subitem {hexToInt}, \hyperpage{12}
+  \item {conversion.cpp}, \hyperpage{29}
+  \item {conversion.h}, \hyperpage{30, 31}
+  \item {currentEditorWidget}
+    \subitem {mainwindow.cpp}, \hyperpage{26}
+
+  \indexspace
+
+  \item {deleteLine}
+    \subitem {GTextEdit}, \hyperpage{16}
+  \item {deleteWord}
+    \subitem {GTextEdit}, \hyperpage{16}
+
+  \indexspace
+
+  \item {Files}, \hyperpage{12}
+    \subitem {Files}, \hyperpage{13}
+    \subitem {getDirectory}, \hyperpage{13}
+    \subitem {getHomeDir}, \hyperpage{13}
+    \subitem {openFileManager}, \hyperpage{13}
+    \subitem {read}, \hyperpage{13}
+    \subitem {write}, \hyperpage{13}
+  \item {files.cpp}, \hyperpage{31}
+  \item {files.h}, \hyperpage{32, 33}
+  \item {findAll}
+    \subitem {Search}, \hyperpage{22}
+
+  \indexspace
+
+  \item {getAsmTemplate}
+    \subitem {Templates}, \hyperpage{23}
+  \item {getCPPTemplate}
+    \subitem {Templates}, \hyperpage{23}
+  \item {getCSSTemplate}
+    \subitem {Templates}, \hyperpage{24}
+  \item {getCTemplate}
+    \subitem {Templates}, \hyperpage{24}
+  \item {getDirectory}
+    \subitem {Files}, \hyperpage{13}
+  \item {getFilepath}
+    \subitem {GTextEdit}, \hyperpage{16}
+  \item {getFileType}
+    \subitem {GTextEdit}, \hyperpage{16}
+  \item {getHomeDir}
+    \subitem {Files}, \hyperpage{13}
+  \item {getHtmlTemplate}
+    \subitem {Templates}, \hyperpage{24}
+  \item {getJavaTemplate}
+    \subitem {Templates}, \hyperpage{24}
+  \item {getStrings}
+    \subitem {Conversion}, \hyperpage{12}
+  \item {GIDE (Guilds IDE)}, \hyperpage{1}
+  \item {GTextEdit}, \hyperpage{14}
+    \subitem {deleteLine}, \hyperpage{16}
+    \subitem {deleteWord}, \hyperpage{16}
+    \subitem {getFilepath}, \hyperpage{16}
+    \subitem {getFileType}, \hyperpage{16}
+    \subitem {GTextEdit}, \hyperpage{16}
+    \subitem {joinLines}, \hyperpage{16}
+    \subitem {keyPressEvent}, \hyperpage{16}
+    \subitem {lineUnderCursor}, \hyperpage{16}
+    \subitem {selectLine}, \hyperpage{16}
+    \subitem {selectWord}, \hyperpage{17}
+    \subitem {setFilePath}, \hyperpage{17}
+    \subitem {setFileType}, \hyperpage{17}
+    \subitem {setHighlighter}, \hyperpage{17}
+    \subitem {setHighlighterTheme}, \hyperpage{17}
+    \subitem {swapLineDown}, \hyperpage{17}
+    \subitem {swapLineUp}, \hyperpage{17}
+    \subitem {toggleComment}, \hyperpage{17}
+    \subitem {wordUnderCursor}, \hyperpage{17}
+  \item {gtextedit.cpp}, \hyperpage{38}
+  \item {gtextedit.h}, \hyperpage{38, 39}
+
+  \indexspace
+
+  \item {hex}
+    \subitem {Conversion}, \hyperpage{12}
+  \item {hexToInt}
+    \subitem {Conversion}, \hyperpage{12}
+  \item {highlightBlock}
+    \subitem {Highlighter}, \hyperpage{19}
+  \item {Highlighter}, \hyperpage{18}
+    \subitem {highlightBlock}, \hyperpage{19}
+    \subitem {Highlighter}, \hyperpage{19}
+    \subitem {setTheme}, \hyperpage{19}
+  \item {highlighter.cpp}, \hyperpage{33}
+  \item {highlighter.h}, \hyperpage{34, 35}
+
+  \indexspace
+
+  \item {joinLines}
+    \subitem {GTextEdit}, \hyperpage{16}
+
+  \indexspace
+
+  \item {keyPressEvent}
+    \subitem {GTextEdit}, \hyperpage{16}
+
+  \indexspace
+
+  \item {lineUnderCursor}
+    \subitem {GTextEdit}, \hyperpage{16}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{25}
+  \item {main.cpp}, \hyperpage{25}
+    \subitem {main}, \hyperpage{25}
+  \item {MainWindow}, \hyperpage{20}
+    \subitem {\texorpdfstring{$\sim$}{\string~}MainWindow}, 
+		\hyperpage{21}
+    \subitem {MainWindow}, \hyperpage{21}
+    \subitem {openWith}, \hyperpage{21}
+  \item {mainwindow.cpp}, \hyperpage{26}
+    \subitem {currentEditorWidget}, \hyperpage{26}
+  \item {mainwindow.h}, \hyperpage{26, 27}
+
+  \indexspace
+
+  \item {openFileManager}
+    \subitem {Files}, \hyperpage{13}
+  \item {openWith}
+    \subitem {MainWindow}, \hyperpage{21}
+
+  \indexspace
+
+  \item {read}
+    \subitem {Files}, \hyperpage{13}
+  \item {README.md}, \hyperpage{25}
+
+  \indexspace
+
+  \item {Search}, \hyperpage{22}
+    \subitem {findAll}, \hyperpage{22}
+    \subitem {Search}, \hyperpage{22}
+  \item {search.cpp}, \hyperpage{40}
+  \item {search.h}, \hyperpage{40, 41}
+  \item {selectLine}
+    \subitem {GTextEdit}, \hyperpage{16}
+  \item {selectWord}
+    \subitem {GTextEdit}, \hyperpage{17}
+  \item {setFilePath}
+    \subitem {GTextEdit}, \hyperpage{17}
+  \item {setFileType}
+    \subitem {GTextEdit}, \hyperpage{17}
+  \item {setHighlighter}
+    \subitem {GTextEdit}, \hyperpage{17}
+  \item {setHighlighterTheme}
+    \subitem {GTextEdit}, \hyperpage{17}
+  \item {setTheme}
+    \subitem {Highlighter}, \hyperpage{19}
+  \item {swapLineDown}
+    \subitem {GTextEdit}, \hyperpage{17}
+  \item {swapLineUp}
+    \subitem {GTextEdit}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Templates}, \hyperpage{23}
+    \subitem {getAsmTemplate}, \hyperpage{23}
+    \subitem {getCPPTemplate}, \hyperpage{23}
+    \subitem {getCSSTemplate}, \hyperpage{24}
+    \subitem {getCTemplate}, \hyperpage{24}
+    \subitem {getHtmlTemplate}, \hyperpage{24}
+    \subitem {getJavaTemplate}, \hyperpage{24}
+    \subitem {Templates}, \hyperpage{23}
+  \item {templates.cpp}, \hyperpage{36}
+  \item {templates.h}, \hyperpage{37}
+  \item {toggleComment}
+    \subitem {GTextEdit}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Ui}, \hyperpage{9}
+
+  \indexspace
+
+  \item {wordUnderCursor}
+    \subitem {GTextEdit}, \hyperpage{17}
+  \item {write}
+    \subitem {Files}, \hyperpage{13}
+
+\end{theindex}

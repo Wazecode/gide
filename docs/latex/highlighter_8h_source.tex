@@ -1,0 +1,123 @@
+\doxysection{highlighter.\+h}
+\hypertarget{highlighter_8h_source}{}\label{highlighter_8h_source}\index{highlighter.h@{highlighter.h}}
+\mbox{\hyperlink{highlighter_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/****************************************************************************}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ **}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ **\ Copyright\ (C)\ 2013\ Digia\ Plc\ and/or\ its\ subsidiary(-\/ies).}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ **\ Contact:\ http://www.qt-\/project.org/legal}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ **}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ **\ This\ file\ is\ part\ of\ the\ examples\ of\ the\ Qt\ Toolkit.}}
+\DoxyCodeLine{00007\ \textcolor{comment}{\ **}}
+\DoxyCodeLine{00008\ \textcolor{comment}{\ **\ \$QT\_BEGIN\_LICENSE:BSD\$}}
+\DoxyCodeLine{00009\ \textcolor{comment}{\ **\ You\ may\ use\ this\ file\ under\ the\ terms\ of\ the\ BSD\ license\ as\ follows:}}
+\DoxyCodeLine{00010\ \textcolor{comment}{\ **}}
+\DoxyCodeLine{00011\ \textcolor{comment}{\ **\ "{}Redistribution\ and\ use\ in\ source\ and\ binary\ forms,\ with\ or\ without}}
+\DoxyCodeLine{00012\ \textcolor{comment}{\ **\ modification,\ are\ permitted\ provided\ that\ the\ following\ conditions\ are}}
+\DoxyCodeLine{00013\ \textcolor{comment}{\ **\ met:}}
+\DoxyCodeLine{00014\ \textcolor{comment}{\ **\ \ \ *\ Redistributions\ of\ source\ code\ must\ retain\ the\ above\ copyright}}
+\DoxyCodeLine{00015\ \textcolor{comment}{\ **\ \ \ \ \ notice,\ this\ list\ of\ conditions\ and\ the\ following\ disclaimer.}}
+\DoxyCodeLine{00016\ \textcolor{comment}{\ **\ \ \ *\ Redistributions\ in\ binary\ form\ must\ reproduce\ the\ above\ copyright}}
+\DoxyCodeLine{00017\ \textcolor{comment}{\ **\ \ \ \ \ notice,\ this\ list\ of\ conditions\ and\ the\ following\ disclaimer\ in}}
+\DoxyCodeLine{00018\ \textcolor{comment}{\ **\ \ \ \ \ the\ documentation\ and/or\ other\ materials\ provided\ with\ the}}
+\DoxyCodeLine{00019\ \textcolor{comment}{\ **\ \ \ \ \ distribution.}}
+\DoxyCodeLine{00020\ \textcolor{comment}{\ **\ \ \ *\ Neither\ the\ name\ of\ Digia\ Plc\ and\ its\ Subsidiary(-\/ies)\ nor\ the\ names}}
+\DoxyCodeLine{00021\ \textcolor{comment}{\ **\ \ \ \ \ of\ its\ contributors\ may\ be\ used\ to\ endorse\ or\ promote\ products\ derived}}
+\DoxyCodeLine{00022\ \textcolor{comment}{\ **\ \ \ \ \ from\ this\ software\ without\ specific\ prior\ written\ permission.}}
+\DoxyCodeLine{00023\ \textcolor{comment}{\ **}}
+\DoxyCodeLine{00024\ \textcolor{comment}{\ **}}
+\DoxyCodeLine{00025\ \textcolor{comment}{\ **\ THIS\ SOFTWARE\ IS\ PROVIDED\ BY\ THE\ COPYRIGHT\ HOLDERS\ AND\ CONTRIBUTORS}}
+\DoxyCodeLine{00026\ \textcolor{comment}{\ **\ "{}AS\ IS"{}\ AND\ ANY\ EXPRESS\ OR\ IMPLIED\ WARRANTIES,\ INCLUDING,\ BUT\ NOT}}
+\DoxyCodeLine{00027\ \textcolor{comment}{\ **\ LIMITED\ TO,\ THE\ IMPLIED\ WARRANTIES\ OF\ MERCHANTABILITY\ AND\ FITNESS\ FOR}}
+\DoxyCodeLine{00028\ \textcolor{comment}{\ **\ A\ PARTICULAR\ PURPOSE\ ARE\ DISCLAIMED.\ IN\ NO\ EVENT\ SHALL\ THE\ COPYRIGHT}}
+\DoxyCodeLine{00029\ \textcolor{comment}{\ **\ OWNER\ OR\ CONTRIBUTORS\ BE\ LIABLE\ FOR\ ANY\ DIRECT,\ INDIRECT,\ INCIDENTAL,}}
+\DoxyCodeLine{00030\ \textcolor{comment}{\ **\ SPECIAL,\ EXEMPLARY,\ OR\ CONSEQUENTIAL\ DAMAGES\ (INCLUDING,\ BUT\ NOT}}
+\DoxyCodeLine{00031\ \textcolor{comment}{\ **\ LIMITED\ TO,\ PROCUREMENT\ OF\ SUBSTITUTE\ GOODS\ OR\ SERVICES;\ LOSS\ OF\ USE,}}
+\DoxyCodeLine{00032\ \textcolor{comment}{\ **\ DATA,\ OR\ PROFITS;\ OR\ BUSINESS\ INTERRUPTION)\ HOWEVER\ CAUSED\ AND\ ON\ ANY}}
+\DoxyCodeLine{00033\ \textcolor{comment}{\ **\ THEORY\ OF\ LIABILITY,\ WHETHER\ IN\ CONTRACT,\ STRICT\ LIABILITY,\ OR\ TORT}}
+\DoxyCodeLine{00034\ \textcolor{comment}{\ **\ (INCLUDING\ NEGLIGENCE\ OR\ OTHERWISE)\ ARISING\ IN\ ANY\ WAY\ OUT\ OF\ THE\ USE}}
+\DoxyCodeLine{00035\ \textcolor{comment}{\ **\ OF\ THIS\ SOFTWARE,\ EVEN\ IF\ ADVISED\ OF\ THE\ POSSIBILITY\ OF\ SUCH\ DAMAGE."{}}}
+\DoxyCodeLine{00036\ \textcolor{comment}{\ **}}
+\DoxyCodeLine{00037\ \textcolor{comment}{\ **\ \$QT\_END\_LICENSE\$}}
+\DoxyCodeLine{00038\ \textcolor{comment}{\ **}}
+\DoxyCodeLine{00039\ \textcolor{comment}{\ ****************************************************************************/}}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ \textcolor{preprocessor}{\#ifndef\ HIGHLIGHTER\_H}}
+\DoxyCodeLine{00042\ \textcolor{preprocessor}{\#define\ HIGHLIGHTER\_H}}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#include\ <QSyntaxHighlighter>}}
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#include\ <QHash>}}
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#include\ <QTextCharFormat>}}
+\DoxyCodeLine{00047\ \textcolor{preprocessor}{\#include\ <QRegularExpression>}}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \textcolor{keyword}{class\ }QTextDocument;}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classHighlighter}{Highlighter}}\ :\ \textcolor{keyword}{public}\ QSyntaxHighlighter}
+\DoxyCodeLine{00052\ \{}
+\DoxyCodeLine{00053\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00056\ \ \ \ \ \mbox{\hyperlink{classHighlighter_a9661b558d133d22f2ca81e85ad65d64d}{Highlighter}}(QString\ filetype,\ QString\ theme,\ QTextDocument\ *parent\ =\ 0);}
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classHighlighter_a0c3f592fd5647dc96b8449cf737d61f4}{setTheme}}(QString\ filetype,\ QString\ theme);}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classHighlighter_ac5b80a896d5f7e04b9ee360518ceb8a1}{highlightBlock}}(\textcolor{keyword}{const}\ QString\ \&text);}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{void}\ setupHighlighter(QString\ fileType,\ QString\ theme);}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{void}\ setColorValues(QString\ theme);}
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{void}\ setCompiledLanguageRules();}
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keywordtype}{void}\ setScriptingLanguageRules();}
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordtype}{void}\ setMarkupLanguageRules();}
+\DoxyCodeLine{00068\ \ \ \ \ \textcolor{keywordtype}{void}\ setAsmRules();}
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ setCssRules();}
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{void}\ setSqlRules();}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \ \ \ \ \textcolor{keyword}{struct\ }HighlightingRule}
+\DoxyCodeLine{00073\ \ \ \ \ \{}
+\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ QRegularExpression\ pattern;}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ QTextCharFormat\ format;}
+\DoxyCodeLine{00076\ \ \ \ \ \};}
+\DoxyCodeLine{00077\ \ \ \ \ QVector<HighlightingRule>\ highlightingRules;}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00079\ \ \ \ \ QRegularExpression\ commentStartExpression;}
+\DoxyCodeLine{00080\ \ \ \ \ QRegularExpression\ commentEndExpression;}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \ \ \ \ QTextCharFormat\ keywordFormat;}
+\DoxyCodeLine{00083\ \ \ \ \ QTextCharFormat\ numberFormat;}
+\DoxyCodeLine{00084\ \ \ \ \ QTextCharFormat\ singleLineCommentFormat;}
+\DoxyCodeLine{00085\ \ \ \ \ QTextCharFormat\ multiLineCommentFormat;}
+\DoxyCodeLine{00086\ \ \ \ \ QTextCharFormat\ quotationFormat;}
+\DoxyCodeLine{00087\ \ \ \ \ QTextCharFormat\ functionFormat;}
+\DoxyCodeLine{00088\ \ \ \ \ QTextCharFormat\ formatStringFormat;}
+\DoxyCodeLine{00089\ \ \ \ \ QTextCharFormat\ operatorFormat;}
+\DoxyCodeLine{00090\ \ \ \ \ QTextCharFormat\ phpVarFormat;}
+\DoxyCodeLine{00091\ \ \ \ \ QTextCharFormat\ rubyVarFormat;}
+\DoxyCodeLine{00092\ \ \ \ \ QTextCharFormat\ tagFormat;}
+\DoxyCodeLine{00093\ \ \ \ \ QTextCharFormat\ valueFormat;}
+\DoxyCodeLine{00094\ \ \ \ \ QTextCharFormat\ attributeFormat;}
+\DoxyCodeLine{00095\ \ \ \ \ QTextCharFormat\ idFormat;}
+\DoxyCodeLine{00096\ \ \ \ \ QTextCharFormat\ classFormat;}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00098\ \ \ \ \ QStringList\ compiledLanguages;}
+\DoxyCodeLine{00099\ \ \ \ \ QStringList\ scriptingLanguages;}
+\DoxyCodeLine{00100\ \ \ \ \ QStringList\ markupLanguages;}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00102\ \ \ \ \ QColor\ keywordColor;}
+\DoxyCodeLine{00103\ \ \ \ \ QColor\ keyword2Color;}
+\DoxyCodeLine{00104\ \ \ \ \ QColor\ functionsColor;}
+\DoxyCodeLine{00105\ \ \ \ \ QColor\ valueColor;}
+\DoxyCodeLine{00106\ \ \ \ \ QColor\ numColor;}
+\DoxyCodeLine{00107\ \ \ \ \ QColor\ operatorColor;}
+\DoxyCodeLine{00108\ \ \ \ \ QColor\ formatStringColor;}
+\DoxyCodeLine{00109\ \ \ \ \ QColor\ commentColor;}
+\DoxyCodeLine{00110\ \ \ \ \ QColor\ varColor;}
+\DoxyCodeLine{00111\ \ \ \ \ QColor\ tagColor;}
+\DoxyCodeLine{00112\ \ \ \ \ QColor\ htmlAttributesColor;}
+\DoxyCodeLine{00113\ \ \ \ \ QColor\ cssClassesIDsColor;}
+\DoxyCodeLine{00114\ \ \ \ \ QColor\ cssAttributesColor;}
+\DoxyCodeLine{00115\ \};}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00117\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ HIGHLIGHTER\_H}}
+
+\end{DoxyCode}

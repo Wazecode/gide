@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['changetabname_0',['changeTabName',['../classGTabs.html#a099dc776053d24f3d1993df591ba4b8b',1,'GTabs']]]
+  ['conversion_0',['Conversion',['../classConversion.html#a7210a8a012e798d55e85b428028f0403',1,'Conversion']]]
 ];

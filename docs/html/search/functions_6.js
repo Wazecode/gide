@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initshortcuts_0',['initShortcuts',['../classMainWindow.html#ad94656db58495e2195132555b7642592',1,'MainWindow']]]
+  ['joinlines_0',['joinLines',['../classGTextEdit.html#a23448036f21947e81565997f96e85925',1,'GTextEdit']]]
 ];

@@ -1,0 +1,111 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}GIDE (Guilds IDE)}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Key Features}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Getting Started}{1}{section.1.3}%
+\contentsline {section}{\numberline {1.4}How to Contribute}{1}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Community and Support}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.6}License}{2}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Ui Namespace Reference}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Class Documentation}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conversion Class Reference}{11}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Constructor \& Destructor Documentation}{11}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}Conversion()}{11}{subsubsection.6.1.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Member Function Documentation}{12}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}ascii()}{12}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}getStrings()}{12}{subsubsection.6.1.2.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.3}hex()}{12}{subsubsection.6.1.2.3}%
+\contentsline {subsubsection}{\numberline {6.1.2.4}hexToInt()}{12}{subsubsection.6.1.2.4}%
+\contentsline {section}{\numberline {6.2}Files Class Reference}{12}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Constructor \& Destructor Documentation}{13}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Files()}{13}{subsubsection.6.2.1.1}%
+\contentsline {subsection}{\numberline {6.2.2}Member Function Documentation}{13}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}getDirectory()}{13}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}getHomeDir()}{13}{subsubsection.6.2.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.3}openFileManager()}{13}{subsubsection.6.2.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.2.4}read()}{13}{subsubsection.6.2.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.2.5}write()}{13}{subsubsection.6.2.2.5}%
+\contentsline {section}{\numberline {6.3}GText\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Edit Class Reference}{14}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Constructor \& Destructor Documentation}{16}{subsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.1.1}GTextEdit()}{16}{subsubsection.6.3.1.1}%
+\contentsline {subsection}{\numberline {6.3.2}Member Function Documentation}{16}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}deleteLine()}{16}{subsubsection.6.3.2.1}%
+\contentsline {subsubsection}{\numberline {6.3.2.2}deleteWord()}{16}{subsubsection.6.3.2.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.3}getFilepath()}{16}{subsubsection.6.3.2.3}%
+\contentsline {subsubsection}{\numberline {6.3.2.4}getFileType()}{16}{subsubsection.6.3.2.4}%
+\contentsline {subsubsection}{\numberline {6.3.2.5}joinLines()}{16}{subsubsection.6.3.2.5}%
+\contentsline {subsubsection}{\numberline {6.3.2.6}keyPressEvent()}{16}{subsubsection.6.3.2.6}%
+\contentsline {subsubsection}{\numberline {6.3.2.7}lineUnderCursor()}{16}{subsubsection.6.3.2.7}%
+\contentsline {subsubsection}{\numberline {6.3.2.8}selectLine()}{17}{subsubsection.6.3.2.8}%
+\contentsline {subsubsection}{\numberline {6.3.2.9}selectWord()}{17}{subsubsection.6.3.2.9}%
+\contentsline {subsubsection}{\numberline {6.3.2.10}setFilePath()}{17}{subsubsection.6.3.2.10}%
+\contentsline {subsubsection}{\numberline {6.3.2.11}setFileType()}{17}{subsubsection.6.3.2.11}%
+\contentsline {subsubsection}{\numberline {6.3.2.12}setHighlighter()}{17}{subsubsection.6.3.2.12}%
+\contentsline {subsubsection}{\numberline {6.3.2.13}setHighlighterTheme()}{17}{subsubsection.6.3.2.13}%
+\contentsline {subsubsection}{\numberline {6.3.2.14}swapLineDown()}{17}{subsubsection.6.3.2.14}%
+\contentsline {subsubsection}{\numberline {6.3.2.15}swapLineUp()}{17}{subsubsection.6.3.2.15}%
+\contentsline {subsubsection}{\numberline {6.3.2.16}toggleComment()}{17}{subsubsection.6.3.2.16}%
+\contentsline {subsubsection}{\numberline {6.3.2.17}wordUnderCursor()}{18}{subsubsection.6.3.2.17}%
+\contentsline {section}{\numberline {6.4}Highlighter Class Reference}{18}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Constructor \& Destructor Documentation}{19}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}Highlighter()}{19}{subsubsection.6.4.1.1}%
+\contentsline {subsection}{\numberline {6.4.2}Member Function Documentation}{19}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}highlightBlock()}{19}{subsubsection.6.4.2.1}%
+\contentsline {subsubsection}{\numberline {6.4.2.2}setTheme()}{20}{subsubsection.6.4.2.2}%
+\contentsline {section}{\numberline {6.5}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{20}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Constructor \& Destructor Documentation}{21}{subsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.1}MainWindow()}{21}{subsubsection.6.5.1.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.2}$\sim $MainWindow()}{21}{subsubsection.6.5.1.2}%
+\contentsline {subsection}{\numberline {6.5.2}Member Function Documentation}{21}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}openWith()}{21}{subsubsection.6.5.2.1}%
+\contentsline {section}{\numberline {6.6}Search Class Reference}{22}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Constructor \& Destructor Documentation}{22}{subsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.1.1}Search()}{22}{subsubsection.6.6.1.1}%
+\contentsline {subsection}{\numberline {6.6.2}Member Function Documentation}{22}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}findAll()}{22}{subsubsection.6.6.2.1}%
+\contentsline {section}{\numberline {6.7}Templates Class Reference}{23}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Constructor \& Destructor Documentation}{23}{subsection.6.7.1}%
+\contentsline {subsubsection}{\numberline {6.7.1.1}Templates()}{23}{subsubsection.6.7.1.1}%
+\contentsline {subsection}{\numberline {6.7.2}Member Function Documentation}{23}{subsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.1}getAsmTemplate()}{23}{subsubsection.6.7.2.1}%
+\contentsline {subsubsection}{\numberline {6.7.2.2}getCPPTemplate()}{24}{subsubsection.6.7.2.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.3}getCSSTemplate()}{24}{subsubsection.6.7.2.3}%
+\contentsline {subsubsection}{\numberline {6.7.2.4}getCTemplate()}{24}{subsubsection.6.7.2.4}%
+\contentsline {subsubsection}{\numberline {6.7.2.5}getHtmlTemplate()}{24}{subsubsection.6.7.2.5}%
+\contentsline {subsubsection}{\numberline {6.7.2.6}getJavaTemplate()}{24}{subsubsection.6.7.2.6}%
+\contentsline {chapter}{\numberline {7}File Documentation}{25}{chapter.7}%
+\contentsline {section}{\numberline {7.1}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{25}{section.7.1}%
+\contentsline {section}{\numberline {7.2}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{25}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Function Documentation}{25}{subsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.1.1}main()}{25}{subsubsection.7.2.1.1}%
+\contentsline {section}{\numberline {7.3}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{26}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Variable Documentation}{26}{subsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.1.1}currentEditorWidget}{26}{subsubsection.7.3.1.1}%
+\contentsline {section}{\numberline {7.4}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{26}{section.7.4}%
+\contentsline {section}{\numberline {7.5}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{27}{section.7.5}%
+\contentsline {section}{\numberline {7.6}conversion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{29}{section.7.6}%
+\contentsline {section}{\numberline {7.7}conversion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{30}{section.7.7}%
+\contentsline {section}{\numberline {7.8}conversion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{31}{section.7.8}%
+\contentsline {section}{\numberline {7.9}files.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{31}{section.7.9}%
+\contentsline {section}{\numberline {7.10}files.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{32}{section.7.10}%
+\contentsline {section}{\numberline {7.11}files.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{33}{section.7.11}%
+\contentsline {section}{\numberline {7.12}highlighter.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{33}{section.7.12}%
+\contentsline {section}{\numberline {7.13}highlighter.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{34}{section.7.13}%
+\contentsline {section}{\numberline {7.14}highlighter.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{35}{section.7.14}%
+\contentsline {section}{\numberline {7.15}templates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{36}{section.7.15}%
+\contentsline {section}{\numberline {7.16}templates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{37}{section.7.16}%
+\contentsline {section}{\numberline {7.17}templates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{37}{section.7.17}%
+\contentsline {section}{\numberline {7.18}gtextedit.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{38}{section.7.18}%
+\contentsline {section}{\numberline {7.19}gtextedit.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{38}{section.7.19}%
+\contentsline {section}{\numberline {7.20}gtextedit.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{39}{section.7.20}%
+\contentsline {section}{\numberline {7.21}search.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{40}{section.7.21}%
+\contentsline {section}{\numberline {7.22}search.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{40}{section.7.22}%
+\contentsline {section}{\numberline {7.23}search.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{41}{section.7.23}%
+\contentsline {chapter}{Index}{43}{section*.52}%

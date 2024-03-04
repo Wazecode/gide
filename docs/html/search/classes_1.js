@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mainwindow_0',['MainWindow',['../classMainWindow.html',1,'']]]
+  ['files_0',['Files',['../classFiles.html',1,'']]]
 ];

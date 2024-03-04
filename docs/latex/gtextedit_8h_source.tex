@@ -1,0 +1,45 @@
+\doxysection{gtextedit.\+h}
+\hypertarget{gtextedit_8h_source}{}\label{gtextedit_8h_source}\index{gtextedit.h@{gtextedit.h}}
+\mbox{\hyperlink{gtextedit_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <QPlainTextEdit>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{highlighter_8h}{../utils/highlighter.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classGTextEdit}{GTextEdit}}\ :\ \textcolor{keyword}{public}\ QPlainTextEdit}
+\DoxyCodeLine{00007\ \{}
+\DoxyCodeLine{00008\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00009\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00010\ \ \ \ \ \mbox{\hyperlink{classGTextEdit_a58b8190b1c53bd96d337a6ea5e348cfc}{GTextEdit}}(QWidget\ *parent\ =\ 0);}
+\DoxyCodeLine{00011\ \ \ \ \ QString\ \mbox{\hyperlink{classGTextEdit_a7f25f1d966e233f20fae4147be517444}{getFilepath}}();}
+\DoxyCodeLine{00012\ \ \ \ \ QString\ \mbox{\hyperlink{classGTextEdit_a8201bf7aa78b7fa95adcae6c62ad215e}{getFileType}}();}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a7e032ea75937adfd39ed2071cb18f119}{setFilePath}}(QString\ newFilepath);}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a311f24247949d677d8503af356d398bd}{setFileType}}(QString\ newFileType);}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a10752a05b0bf2a48b652f6b6364a5161}{setHighlighter}}(\mbox{\hyperlink{classHighlighter}{Highlighter}}\ *\ h);}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a6c6da50a40352090893956880bc5c64e}{setHighlighterTheme}}(QString\ theme);}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a272e1cf177deb182d59d929aea33b3aa}{selectLine}}();}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_abc38b5a6746eb8b61322986c0d7594ff}{selectWord}}();}
+\DoxyCodeLine{00019\ \ \ \ \ QString\ \mbox{\hyperlink{classGTextEdit_ac1df78467afb229ff8b261a410911702}{lineUnderCursor}}();}
+\DoxyCodeLine{00020\ \ \ \ \ QString\ \mbox{\hyperlink{classGTextEdit_aa4d398736bb7986d9a8efc71a1951f6a}{wordUnderCursor}}();}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a5eb84e99635044ee29234be0dcdd2137}{deleteLine}}();}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_ab5b1b47cb86c34fdaa581f2ea609b0ac}{deleteWord}}();}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a23448036f21947e81565997f96e85925}{joinLines}}();}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a739e012fa518d6e51013d8fb31c5dd1c}{swapLineUp}}();}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a3bd37cbce6b1ae8e1e929cb66d5dc13d}{swapLineDown}}();}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a5d109a1c33a49a5ce9190dbba45a629a}{toggleComment}}();}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classGTextEdit_a9e53392568d47bcb31ccbde9917efb0c}{keyPressEvent}}(QKeyEvent\ *\ e);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00034\ \ \ \ \ QString\ filepath;}
+\DoxyCodeLine{00035\ \ \ \ \ QString\ fileType;}
+\DoxyCodeLine{00036\ \ \ \ \ \mbox{\hyperlink{classHighlighter}{Highlighter}}\ *\ highlighter;}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \};}
+\DoxyCodeLine{00039\ }
+
+\end{DoxyCode}

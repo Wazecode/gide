@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['deletecurrenttab_0',['deleteCurrentTab',['../classGTabs.html#a10bf0b5bb0305c09b5bae75c3e3bb88d',1,'GTabs']]],
-  ['deleteshortcut_1',['deleteShortcut',['../classShortcuts.html#a95c59e69b9a1832942cdb8f297302ae8',1,'Shortcuts']]]
+  ['deleteline_0',['deleteLine',['../classGTextEdit.html#a5eb84e99635044ee29234be0dcdd2137',1,'GTextEdit']]],
+  ['deleteword_1',['deleteWord',['../classGTextEdit.html#ab5b1b47cb86c34fdaa581f2ea609b0ac',1,'GTextEdit']]]
 ];

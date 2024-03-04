@@ -1,0 +1,15 @@
+#+title: Todo
+
+* DONE Make a simple Texteditor.
+
+* DONE Adding Tab Functionality
+- Almost completed tabs functionality.
+- Changing of window and tab title according to filename.
+- Pressing close button closes the tab.
+
+** <2024-02-07 Wed>
+- Completed Tabs functionality and solved the above two problems
+
+* TODO Adding Find and Replace Functionality
+** TODO Making a new small window pop up and add buttons and input fields.
+** TODO Make a function for highlighting text

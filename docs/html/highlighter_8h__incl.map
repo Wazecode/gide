@@ -1,0 +1,11 @@
+<map id="highlighter.h" name="highlighter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="208,5,300,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,140,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,35,119,76,117,71,221,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="164,80,226,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,34,217,69,213,66,242,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="250,80,375,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="266,31,295,66,291,69,262,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="399,80,541,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="292,30,419,72,417,77,291,35"/>
+</map>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['editshortcut_0',['editShortcut',['../classShortcuts.html#a1cba01e9081297408b5535021cd037cb',1,'Shortcuts']]]
+  ['files_0',['Files',['../classFiles.html#a62fc229c5606d417854b621e9719cad9',1,'Files']]],
+  ['findall_1',['findAll',['../classSearch.html#aaa27876aab292f488da38b6ea445e695',1,'Search']]]
 ];

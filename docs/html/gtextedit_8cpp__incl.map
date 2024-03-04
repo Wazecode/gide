@@ -1,0 +1,19 @@
+<map id="gtextedit.cpp" name="gtextedit.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="184,5,281,32"/>
+<area shape="rect" id="Node000002" href="$gtextedit_8h.html" title=" " alt="" coords="141,80,223,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,34,201,69,197,66,221,31"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="248,80,319,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="244,31,268,66,264,69,239,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="56,155,164,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="171,109,135,145,131,142,167,105"/>
+<area shape="rect" id="Node000004" href="$highlighter_8h.html" title=" " alt="" coords="188,155,320,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="196,105,233,142,229,145,192,109"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,229,140,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="223,184,119,226,117,221,221,179"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="164,229,226,256"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="246,184,217,219,213,215,242,180"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="250,229,375,256"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="266,180,295,215,291,219,262,184"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="399,229,541,256"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="292,179,419,221,417,226,291,184"/>
+</map>

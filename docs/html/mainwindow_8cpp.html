@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GIDE: /home/shuwais/Documents/Projects/gide/src/mainwindow.cpp File Reference</title>
+<title>GIDE: mainwindow.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="gideLogo.svg"/></td>
+  <td id="projectlogo"><img alt="Logo" src="gideLogoSmall.svg"/></td>
   <td id="projectalign">
    <div id="projectname">GIDE
    </div>
@@ -76,62 +76,102 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">mainwindow.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>&quot;</code><br />
-<code>#include &quot;./ui_mainwindow.h&quot;</code><br />
+<code>#include &quot;ui_mainwindow.h&quot;</code><br />
+<code>#include &lt;QFileDialog&gt;</code><br />
+<code>#include &lt;QMessageBox&gt;</code><br />
+<code>#include &lt;QInputDialog&gt;</code><br />
+<code>#include &lt;QScrollBar&gt;</code><br />
+<code>#include &lt;QTabWidget&gt;</code><br />
+<code>#include &quot;QDebug&quot;</code><br />
+<code>#include &quot;<a class="el" href="gtextedit_8h_source.html">widgets/gtextedit.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for mainwindow.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="mainwindow_8cpp__incl.png" border="0" usemap="#a_2home_2shuwais_2Documents_2Projects_2gide_2src_2mainwindow_8cpp" alt=""/></div>
-<map name="a_2home_2shuwais_2Documents_2Projects_2gide_2src_2mainwindow_8cpp" id="a_2home_2shuwais_2Documents_2Projects_2gide_2src_2mainwindow_8cpp">
-<area shape="rect" title=" " alt="" coords="612,5,836,48"/>
-<area shape="rect" href="mainwindow_8h.html" title=" " alt="" coords="603,96,706,123"/>
-<area shape="poly" title=" " alt="" coords="708,50,677,86,673,82,704,47"/>
-<area shape="rect" title=" " alt="" coords="730,96,859,123"/>
-<area shape="poly" title=" " alt="" coords="744,47,775,82,771,86,740,50"/>
-<area shape="rect" title=" " alt="" coords="5,171,112,197"/>
-<area shape="poly" title=" " alt="" coords="603,118,396,140,131,173,128,174,127,169,130,168,395,135,602,113"/>
-<area shape="rect" title=" " alt="" coords="187,245,256,272"/>
-<area shape="poly" title=" " alt="" coords="609,126,451,173,267,242,265,237,450,168,607,121"/>
-<area shape="rect" title=" " alt="" coords="268,320,348,347"/>
-<area shape="poly" title=" " alt="" coords="603,120,495,136,365,163,302,180,247,200,204,222,177,247,171,259,172,269,178,279,188,288,218,304,253,317,251,322,216,309,185,293,174,282,167,271,166,258,172,244,201,218,245,195,301,175,364,158,494,131,602,114"/>
-<area shape="rect" title=" " alt="" coords="824,320,936,347"/>
-<area shape="poly" title=" " alt="" coords="669,121,858,307,855,311,665,125"/>
-<area shape="rect" title=" " alt="" coords="784,171,856,197"/>
-<area shape="poly" title=" " alt="" coords="684,121,778,161,776,166,682,126"/>
-<area shape="rect" title=" " alt="" coords="880,171,955,197"/>
-<area shape="poly" title=" " alt="" coords="701,121,865,166,864,171,700,126"/>
-<area shape="rect" title=" " alt="" coords="979,171,1058,197"/>
-<area shape="poly" title=" " alt="" coords="707,118,964,168,963,173,706,123"/>
-<area shape="rect" href="gtexteditor_8h.html" title=" " alt="" coords="608,245,701,272"/>
-<area shape="poly" title=" " alt="" coords="657,123,657,230,652,230,652,123"/>
-<area shape="rect" href="gtabs_8h.html" title=" " alt="" coords="462,171,527,197"/>
-<area shape="poly" title=" " alt="" coords="628,126,537,166,535,161,626,121"/>
-<area shape="poly" title=" " alt="" coords="608,272,364,323,363,318,607,267"/>
-<area shape="poly" title=" " alt="" coords="695,270,827,312,825,317,693,275"/>
-<area shape="rect" title=" " alt="" coords="380,320,452,347"/>
-<area shape="poly" title=" " alt="" coords="614,275,468,319,466,314,612,270"/>
-<area shape="rect" title=" " alt="" coords="607,320,686,347"/>
-<area shape="poly" title=" " alt="" coords="656,273,652,305,647,304,650,272"/>
-<area shape="rect" title=" " alt="" coords="710,320,799,347"/>
-<area shape="poly" title=" " alt="" coords="673,270,726,308,723,313,670,275"/>
-<area shape="rect" title=" " alt="" coords="476,320,583,347"/>
-<area shape="poly" title=" " alt="" coords="634,275,565,314,563,310,631,270"/>
-<area shape="poly" title=" " alt="" coords="463,196,272,247,270,242,461,191"/>
-<area shape="poly" title=" " alt="" coords="462,189,428,194,389,204,351,221,321,247,313,260,309,275,307,305,301,304,303,274,308,258,316,244,349,216,387,198,427,188,461,184"/>
-<area shape="poly" title=" " alt="" coords="528,189,613,210,714,243,774,272,845,310,843,315,772,277,712,248,612,215,526,195"/>
-<area shape="poly" title=" " alt="" coords="523,195,614,236,612,241,521,200"/>
-<area shape="poly" title=" " alt="" coords="490,199,432,307,427,305,485,197"/>
-<area shape="rect" title=" " alt="" coords="491,245,584,272"/>
-<area shape="poly" title=" " alt="" coords="504,197,524,231,520,233,500,199"/>
-<area shape="rect" href="gshortcut_8h.html" title=" " alt="" coords="330,245,416,272"/>
-<area shape="poly" title=" " alt="" coords="475,200,409,239,406,235,472,196"/>
-<area shape="poly" title=" " alt="" coords="364,274,331,310,327,307,360,271"/>
+<div class="center"><img src="mainwindow_8cpp__incl.png" border="0" usemap="#amainwindow_8cpp" alt=""/></div>
+<map name="amainwindow_8cpp" id="amainwindow_8cpp">
+<area shape="rect" title=" " alt="" coords="1071,5,1188,32"/>
+<area shape="rect" href="mainwindow_8h.html" title=" " alt="" coords="690,80,793,107"/>
+<area shape="poly" title=" " alt="" coords="1071,34,809,82,808,77,1070,28"/>
+<area shape="rect" title=" " alt="" coords="817,80,938,107"/>
+<area shape="poly" title=" " alt="" coords="1086,35,936,78,935,73,1085,30"/>
+<area shape="rect" title=" " alt="" coords="962,80,1051,107"/>
+<area shape="poly" title=" " alt="" coords="1109,35,1043,74,1040,69,1107,30"/>
+<area shape="rect" title=" " alt="" coords="1076,80,1183,107"/>
+<area shape="poly" title=" " alt="" coords="1132,33,1132,64,1127,64,1127,33"/>
+<area shape="rect" title=" " alt="" coords="1207,80,1305,107"/>
+<area shape="poly" title=" " alt="" coords="1153,30,1222,70,1219,74,1150,35"/>
+<area shape="rect" title=" " alt="" coords="1329,80,1413,107"/>
+<area shape="poly" title=" " alt="" coords="1172,30,1315,73,1313,78,1171,35"/>
+<area shape="rect" title=" " alt="" coords="1437,80,1531,107"/>
+<area shape="poly" title=" " alt="" coords="1189,29,1423,77,1422,82,1188,35"/>
+<area shape="rect" title=" " alt="" coords="1555,80,1624,107"/>
+<area shape="poly" title=" " alt="" coords="1189,24,1344,44,1540,77,1539,82,1343,49,1188,29"/>
+<area shape="rect" href="gtextedit_8h.html" title=" " alt="" coords="377,80,508,107"/>
+<area shape="poly" title=" " alt="" coords="1070,29,524,86,524,81,1070,24"/>
+<area shape="rect" title=" " alt="" coords="630,155,736,181"/>
+<area shape="poly" title=" " alt="" coords="733,109,704,144,700,141,729,106"/>
+<area shape="rect" title=" " alt="" coords="760,155,840,181"/>
+<area shape="poly" title=" " alt="" coords="754,106,782,141,778,144,749,109"/>
+<area shape="rect" title=" " alt="" coords="864,155,944,181"/>
+<area shape="poly" title=" " alt="" coords="771,105,863,145,861,150,769,110"/>
+<area shape="rect" title=" " alt="" coords="389,155,497,181"/>
+<area shape="poly" title=" " alt="" coords="690,110,510,153,509,148,689,105"/>
+<area shape="rect" href="highlighter_8h.html" title=" " alt="" coords="246,155,365,181"/>
+<area shape="poly" title=" " alt="" coords="690,106,381,157,380,151,689,100"/>
+<area shape="rect" href="files_8h.html" title=" " alt="" coords="521,155,605,181"/>
+<area shape="poly" title=" " alt="" coords="711,110,609,151,607,146,709,105"/>
+<area shape="rect" href="search_8h.html" title=" " alt="" coords="1256,155,1376,181"/>
+<area shape="poly" title=" " alt="" coords="794,102,806,104,926,120,1022,129,1118,137,1241,152,1240,157,1117,142,1021,134,926,125,805,109,793,107"/>
+<area shape="rect" href="conversion_8h.html" title=" " alt="" coords="1109,155,1232,181"/>
+<area shape="poly" title=" " alt="" coords="794,102,806,104,1094,151,1093,157,805,109,793,107"/>
+<area shape="rect" href="templates_8h.html" title=" " alt="" coords="968,155,1085,181"/>
+<area shape="poly" title=" " alt="" coords="792,105,962,148,961,153,790,110"/>
+<area shape="rect" title=" " alt="" coords="320,229,454,256"/>
+<area shape="poly" title=" " alt="" coords="321,180,363,217,360,221,318,184"/>
+<area shape="rect" title=" " alt="" coords="478,229,541,256"/>
+<area shape="poly" title=" " alt="" coords="342,179,464,223,462,228,340,184"/>
+<area shape="rect" title=" " alt="" coords="5,229,131,256"/>
+<area shape="poly" title=" " alt="" coords="265,184,125,227,123,222,263,179"/>
+<area shape="rect" title=" " alt="" coords="155,229,296,256"/>
+<area shape="poly" title=" " alt="" coords="293,184,252,221,248,217,290,180"/>
+<area shape="rect" title=" " alt="" coords="779,229,845,256"/>
+<area shape="poly" title=" " alt="" coords="606,179,765,225,763,230,604,184"/>
+<area shape="rect" title=" " alt="" coords="1216,229,1269,256"/>
+<area shape="poly" title=" " alt="" coords="1305,184,1268,220,1264,216,1301,180"/>
+<area shape="poly" title=" " alt="" coords="1185,180,1221,216,1218,220,1181,184"/>
+<area shape="poly" title=" " alt="" coords="990,184,860,228,858,223,988,179"/>
+<area shape="poly" title=" " alt="" coords="445,107,445,139,440,139,440,107"/>
+<area shape="poly" title=" " alt="" coords="420,110,344,149,342,145,418,105"/>
 </map>
 </div>
-</div></div><!-- contents -->
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a03830039f0e89d7a74a2eb21c2a56cdb" id="r_a03830039f0e89d7a74a2eb21c2a56cdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGTextEdit.html">GTextEdit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03830039f0e89d7a74a2eb21c2a56cdb">currentEditorWidget</a> = NULL</td></tr>
+<tr class="separator:a03830039f0e89d7a74a2eb21c2a56cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a03830039f0e89d7a74a2eb21c2a56cdb" name="a03830039f0e89d7a74a2eb21c2a56cdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03830039f0e89d7a74a2eb21c2a56cdb">&#9670;&#160;</a></span>currentEditorWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classGTextEdit.html">GTextEdit</a>* currentEditorWidget = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0

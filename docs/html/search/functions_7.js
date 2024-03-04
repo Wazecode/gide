@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['load_0',['load',['../classGShortcuts.html#a31340a73c450d129a2cb8cd5fa9cde55',1,'GShortcuts']]]
+  ['keypressevent_0',['keyPressEvent',['../classGTextEdit.html#a9e53392568d47bcb31ccbde9917efb0c',1,'GTextEdit']]]
 ];

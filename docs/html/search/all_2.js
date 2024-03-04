@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['default_5fheight_0',['DEFAULT_HEIGHT',['../mainwindow_8h.html#a2fab6d7a2bcb15d1595cacc38230f21b',1,'mainwindow.h']]],
-  ['default_5fwidth_1',['DEFAULT_WIDTH',['../mainwindow_8h.html#af7b8fc8ce7f700c853cfbc36ee8cc474',1,'mainwindow.h']]],
-  ['deletecurrenttab_2',['deleteCurrentTab',['../classGTabs.html#a10bf0b5bb0305c09b5bae75c3e3bb88d',1,'GTabs']]],
-  ['deleteshortcut_3',['deleteShortcut',['../classShortcuts.html#a95c59e69b9a1832942cdb8f297302ae8',1,'Shortcuts']]]
+  ['deleteline_0',['deleteLine',['../classGTextEdit.html#a5eb84e99635044ee29234be0dcdd2137',1,'GTextEdit']]],
+  ['deleteword_1',['deleteWord',['../classGTextEdit.html#ab5b1b47cb86c34fdaa581f2ea609b0ac',1,'GTextEdit']]]
 ];
