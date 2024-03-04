@@ -35,5 +35,5 @@ GIDE is released under the [GNU General Public License v3.0 (GPL-3.0)](./LICENSE
 
 Thank you for being a part of The Nameless Guild and GIDE development!
 
-Happy Coding!
+Happy Coding!!!!
 
