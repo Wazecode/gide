@@ -1,6 +1,7 @@
 #pragma once
 
 #include <QPlainTextEdit>
+#include <QPainter>
 #include "../utils/highlighter.h"
 
 class GTextEdit : public QPlainTextEdit
@@ -24,9 +25,12 @@ public:
     void swapLineUp();
     void swapLineDown();
     void toggleComment();
+    void lineNumberAreaPaintEvent(QPaintEvent *event);
+    int lineNumberAreaWidth();
 
 protected:
-    virtual void keyPressEvent(QKeyEvent * e);
+    virtual void keyPressEvent(QKeyEvent * e) override;
+    void resizeEvent(QResizeEvent *event) override;
 
 public slots:
 
@@ -34,6 +38,10 @@ private:
     QString filepath;
     QString fileType;
     Highlighter * highlighter;
+    QWidget *lineNumberArea;
+private slots:
+    void updateLineNumberAreaWidth(int newBlockCount);
+    void updateLineNumberArea(const QRect &rect, int dy);
 
 };
 

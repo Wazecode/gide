@@ -7,9 +7,10 @@
 
 #include "utils/highlighter.h"
 #include "utils/files.h"
-#include "widgets/search.h"
 #include "utils/conversion.h"
 #include "utils/templates.h"
+#include "widgets/search.h"
+#include "widgets/runner.h"
 
 namespace Ui {
 class MainWindow;
@@ -163,6 +164,8 @@ private slots:
 
     void on_actionRandomized_triggered();
 
+    void on_actionRun_triggered();
+
 private:
     Ui::MainWindow *ui;
     Highlighter *highlighter;
@@ -173,6 +176,7 @@ private:
     Files files;
     Search searcher;
     Templates templates;
+    Runner *runner;
 
     int numBlocks;
     int newNumBlocks;

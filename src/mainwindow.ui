@@ -62,56 +62,6 @@
        <number>2</number>
       </property>
       <item>
-       <widget class="QListWidget" name="listWidget">
-        <property name="maximumSize">
-         <size>
-          <width>50</width>
-          <height>16777215</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>Anonymous Pro</family>
-          <pointsize>11</pointsize>
-          <italic>false</italic>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: #073642;
-margin-top: 28px;
-padding-left: 5px;
-color: #839496;
-border: none;
-font: 11pt &quot;Anonymous Pro&quot;;</string>
-        </property>
-        <property name="frameShape">
-         <enum>QFrame::StyledPanel</enum>
-        </property>
-        <property name="layoutMode">
-         <enum>QListView::SinglePass</enum>
-        </property>
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <property name="gridSize">
-         <size>
-          <width>0</width>
-          <height>15</height>
-         </size>
-        </property>
-        <property name="uniformItemSizes">
-         <bool>false</bool>
-        </property>
-        <property name="selectionRectVisible">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="enabled">
          <bool>true</bool>
@@ -653,7 +603,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <widget class="QMenu" name="menuTheme">
      <property name="title">
-      <string>Theme</string>
+      <string>Th&amp;eme</string>
      </property>
      <addaction name="actionDark"/>
      <addaction name="actionSolarized"/>
@@ -664,7 +614,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     </widget>
     <widget class="QMenu" name="menuTab_Width">
      <property name="title">
-      <string>Tab Width</string>
+      <string>&amp;Tab Width</string>
      </property>
      <addaction name="action2"/>
      <addaction name="action4"/>
@@ -672,6 +622,12 @@ background-color: rgba(255, 255, 255, 0);</string>
     </widget>
     <addaction name="menuTab_Width"/>
     <addaction name="menuTheme"/>
+   </widget>
+   <widget class="QMenu" name="menuRun">
+    <property name="title">
+     <string>Run</string>
+    </property>
+    <addaction name="actionRun"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -681,13 +637,14 @@ background-color: rgba(255, 255, 255, 0);</string>
    <addaction name="menuTools"/>
    <addaction name="menuPreferences"/>
    <addaction name="menuAbout"/>
+   <addaction name="menuRun"/>
   </widget>
   <action name="actionOpen">
    <property name="checkable">
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Open</string>
+    <string>&amp;Open</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+O</string>
@@ -695,7 +652,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionNew">
    <property name="text">
-    <string>New</string>
+    <string>&amp;New</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+N</string>
@@ -703,7 +660,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionSave">
    <property name="text">
-    <string>Save</string>
+    <string>&amp;Save</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+S</string>
@@ -711,7 +668,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionSave_as">
    <property name="text">
-    <string>Save as</string>
+    <string>Sa&amp;ve as</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+S</string>
@@ -719,7 +676,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionExit">
    <property name="text">
-    <string>Exit</string>
+    <string>&amp;Exit</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Q</string>
@@ -727,7 +684,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionUndo">
    <property name="text">
-    <string>Undo</string>
+    <string>&amp;Undo</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Z</string>
@@ -735,7 +692,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionRedo">
    <property name="text">
-    <string>Redo</string>
+    <string>&amp;Redo</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+Z</string>
@@ -743,7 +700,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionFind">
    <property name="text">
-    <string>Find</string>
+    <string>&amp;Find</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+F</string>
@@ -751,27 +708,27 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionAscii">
    <property name="text">
-    <string>Ascii</string>
+    <string>&amp;Ascii</string>
    </property>
   </action>
   <action name="actionHex">
    <property name="text">
-    <string>Hex</string>
+    <string>&amp;Hex</string>
    </property>
   </action>
   <action name="actionStrings">
    <property name="text">
-    <string>Strings</string>
+    <string>&amp;Strings</string>
    </property>
   </action>
   <action name="actionAbout">
    <property name="text">
-    <string>About GIDE</string>
+    <string>&amp;About GIDE</string>
    </property>
   </action>
   <action name="actionGoTo">
    <property name="text">
-    <string>GoTo</string>
+    <string>&amp;GoTo</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+L</string>
@@ -782,7 +739,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     <bool>true</bool>
    </property>
    <property name="text">
-    <string>Fullscreen</string>
+    <string>&amp;Fullscreen</string>
    </property>
    <property name="shortcut">
     <string>F11</string>
@@ -790,27 +747,27 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionAsm">
    <property name="text">
-    <string>asm</string>
+    <string>&amp;asm</string>
    </property>
   </action>
   <action name="actionC">
    <property name="text">
-    <string>c</string>
+    <string>&amp;c</string>
    </property>
   </action>
   <action name="actionCpluspluss">
    <property name="text">
-    <string>cplusplus</string>
+    <string>c&amp;plusplus</string>
    </property>
   </action>
   <action name="actionHtml">
    <property name="text">
-    <string>html</string>
+    <string>&amp;html</string>
    </property>
   </action>
   <action name="actionJava">
    <property name="text">
-    <string>java</string>
+    <string>&amp;java</string>
    </property>
   </action>
   <action name="actionCss">
@@ -820,7 +777,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionFind_Next">
    <property name="text">
-    <string>Find Next</string>
+    <string>Find &amp;Next</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+G</string>
@@ -828,7 +785,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionFind_Previous">
    <property name="text">
-    <string>Find Previous</string>
+    <string>Find &amp;Previous</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+G</string>
@@ -836,7 +793,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionReplace">
    <property name="text">
-    <string>Replace</string>
+    <string>&amp;Replace</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+R</string>
@@ -844,7 +801,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionDelete_line">
    <property name="text">
-    <string>Remove line</string>
+    <string>R&amp;emove line</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+R</string>
@@ -852,7 +809,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionRemove_word">
    <property name="text">
-    <string>Remove word</string>
+    <string>Remove &amp;word</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+D</string>
@@ -860,7 +817,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionToggle_comment">
    <property name="text">
-    <string>Toggle comment</string>
+    <string>&amp;Toggle comment</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+/</string>
@@ -868,17 +825,17 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionOverview">
    <property name="text">
-    <string>Overview</string>
+    <string>&amp;Overview</string>
    </property>
   </action>
   <action name="actionDark">
    <property name="text">
-    <string>Monokai</string>
+    <string>&amp;Monokai</string>
    </property>
   </action>
   <action name="actionSolarized_Dark">
    <property name="text">
-    <string>Solarized Dark</string>
+    <string>Solarized &amp;Dark</string>
    </property>
   </action>
   <action name="actionNext_Word">
@@ -893,7 +850,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionJoin_Lines">
    <property name="text">
-    <string>Join Lines</string>
+    <string>&amp;Join Lines</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+J</string>
@@ -901,7 +858,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionMove_Line_Up">
    <property name="text">
-    <string>Swap Line Up</string>
+    <string>&amp;Swap Line Up</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Up</string>
@@ -909,7 +866,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionSwap_line_down">
    <property name="text">
-    <string>Swap Line Down</string>
+    <string>Swap &amp;Line Down</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Down</string>
@@ -917,7 +874,7 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionMenubar">
    <property name="text">
-    <string>Menubar</string>
+    <string>&amp;Menubar</string>
    </property>
    <property name="shortcut">
     <string>Alt+M</string>
@@ -925,52 +882,56 @@ background-color: rgba(255, 255, 255, 0);</string>
   </action>
   <action name="actionSolarized">
    <property name="text">
-    <string>Solarized</string>
+    <string>&amp;Solarized</string>
    </property>
   </action>
   <action name="action4">
    <property name="text">
-    <string>4</string>
+    <string>&amp;4</string>
    </property>
   </action>
   <action name="action8">
    <property name="text">
-    <string>8</string>
+    <string>&amp;8</string>
    </property>
   </action>
   <action name="action2">
    <property name="text">
-    <string>2</string>
+    <string>&amp;2</string>
    </property>
   </action>
   <action name="actionClose_All">
    <property name="text">
-    <string>Close All</string>
+    <string>&amp;Close All</string>
    </property>
   </action>
   <action name="actionTommorrow">
    <property name="text">
-    <string>Tomorrow</string>
+    <string>&amp;Tomorrow</string>
    </property>
   </action>
   <action name="actionTommorrow_Night">
    <property name="text">
-    <string>Tomorrow Night</string>
+    <string>Tomorrow &amp;Night</string>
    </property>
   </action>
   <action name="actionRandomized">
    <property name="text">
-    <string>Randomized</string>
+    <string>&amp;Randomized</string>
    </property>
    <property name="toolTip">
     <string>Random Selection</string>
+   </property>
+  </action>
+  <action name="actionRun">
+   <property name="text">
+    <string>Run</string>
    </property>
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
   <tabstop>tabWidget</tabstop>
-  <tabstop>listWidget</tabstop>
   <tabstop>textBrowser</tabstop>
   <tabstop>fileOverview</tabstop>
  </tabstops>

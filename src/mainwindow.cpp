@@ -37,8 +37,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->centralWidget->layout()->setContentsMargins(0,0,0,0);
 
     // Disbale manual scrolling for line numbers
-    ui->listWidget->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    ui->listWidget->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    // ui->listWidget->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    // ui->listWidget->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
     // Hide Search Bar By Default
     ui->findReplaceBar->hide();
@@ -67,9 +67,9 @@ MainWindow::MainWindow(QWidget *parent) :
     currentEditorWidget->setFocus();
     highlightCurrentLine();
 
-    ui->listWidget->addItem("1");
-    QListWidgetItem *item = ui->listWidget->item(numBlocks-1);
-    item->setSizeHint(QSize(item->sizeHint().height(), 14));
+    // ui->listWidget->addItem("1");
+    // QListWidgetItem *item = ui->listWidget->item(numBlocks-1);
+    // item->setSizeHint(QSize(item->sizeHint().height(), 14));
 
     // Setup Window Based On User's Settings
 
@@ -137,7 +137,7 @@ void MainWindow::on_tabWidget_currentChanged(int index)
     currentEditorWidget = qobject_cast<GTextEdit *>(ui->tabWidget->widget(index));
     newNumBlocks = currentEditorWidget->document()->blockCount();
 
-    QObject::connect(currentEditorWidget->verticalScrollBar(), SIGNAL(valueChanged(int)), ui->listWidget->verticalScrollBar(), SLOT(setValue(int)));
+    // QObject::connect(currentEditorWidget->verticalScrollBar(), SIGNAL(valueChanged(int)), ui->listWidget->verticalScrollBar(), SLOT(setValue(int)));
     QObject::connect(currentEditorWidget->verticalScrollBar(), SIGNAL(valueChanged(int)), this, SLOT(scrollOverview(int)));
     connect(currentEditorWidget, SIGNAL(cursorPositionChanged()), this, SLOT(highlightCurrentLine()));
     updateLineNums(newNumBlocks);
@@ -349,7 +349,7 @@ void MainWindow::selectText(int pos, int len){
         cur.setPosition(pos , QTextCursor::MoveAnchor);
         cur.setPosition(pos + len, QTextCursor::KeepAnchor);
         currentEditorWidget->setTextCursor(cur);
-        ui->listWidget->verticalScrollBar()->setValue(currentEditorWidget->verticalScrollBar()->value());
+        // ui->listWidget->verticalScrollBar()->setValue(currentEditorWidget->verticalScrollBar()->value());
     }
 }
 
@@ -505,7 +505,7 @@ void MainWindow::on_actionGoTo_triggered()
         cur.movePosition(QTextCursor::Start, QTextCursor::MoveAnchor, 1);
         cur.movePosition(QTextCursor::Down, QTextCursor::MoveAnchor, line-1);
         currentEditorWidget->setTextCursor(cur);
-        ui->listWidget->verticalScrollBar()->setValue(currentEditorWidget->verticalScrollBar()->value());
+        // ui->listWidget->verticalScrollBar()->setValue(currentEditorWidget->verticalScrollBar()->value());
     }
 }
 
@@ -821,7 +821,7 @@ void MainWindow::setLineNumStyle(QString lineColor, QString foregroundColor){
             "color: " + foregroundColor  +";"
             "border: none;"
             "font: 11pt \"Anonymous Pro\";";
-    ui->listWidget->setStyleSheet(stylesheet);
+    // ui->listWidget->setStyleSheet(stylesheet);
 }
 
 void MainWindow::setOverViewStyle(QString lineColor, QString foregroundColor){
@@ -1017,7 +1017,7 @@ void MainWindow::highlightCurrentLine(){
        extraSelections.append(selections);
 
        currentEditorWidget->setExtraSelections(extraSelections);
-       ui->listWidget->verticalScrollBar()->setValue(currentEditorWidget->verticalScrollBar()->value());
+       // ui->listWidget->verticalScrollBar()->setValue(currentEditorWidget->verticalScrollBar()->value());
    }
 }
 
@@ -1029,15 +1029,15 @@ void MainWindow::updateLineNums(int newBlockCount){
         while (numBlocks < newBlockCount){
             numBlocks++;
             QString lineNum = QString::number(numBlocks);
-            ui->listWidget->addItem(lineNum);
-            QListWidgetItem *item = ui->listWidget->item(numBlocks-1);
-            item->setSizeHint(QSize(item->sizeHint().height(), 14));
+            // ui->listWidget->addItem(lineNum);
+            // QListWidgetItem *item = ui->listWidget->item(numBlocks-1);
+            // item->setSizeHint(QSize(item->sizeHint().height(), 14));
         }
 
     } else {
         //  Remove Line Numbers
         while (numBlocks > newBlockCount){
-            ui->listWidget->takeItem(numBlocks - 1);
+            // ui->listWidget->takeItem(numBlocks - 1);
             numBlocks--;
         }
     }
@@ -1174,8 +1174,9 @@ void MainWindow::openWith(QString file){
     open(file);
 }
 
-
-
-
-
+void MainWindow::on_actionRun_triggered()
+{
+    runner = new Runner(this, filename);
+    runner->show();
+}
 

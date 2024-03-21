@@ -31,6 +31,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         utils/highlighter.h utils/highlighter.cpp
         utils/conversion.h utils/conversion.cpp
         utils/templates.h utils/templates.cpp
+        widgets/linenumberarea.h widgets/linenumberarea.cpp
+        widgets/runner.h widgets/runner.cpp widgets/runner.ui
+
+
+
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET src APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
