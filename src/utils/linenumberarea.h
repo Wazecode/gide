@@ -1,6 +1,6 @@
 #pragma once
 #include <QWidget>
-#include "gtextedit.h"
+#include "../widgets/gtextedit.h"
 
 class LineNumberArea : public QWidget
 {
